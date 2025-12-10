@@ -1,5 +1,6 @@
 // Brute force approach
-/*package Array_Problems;
+/*
+package Array_Problems;
 
 import java.util.Scanner;
 import java.util.Arrays;
@@ -32,10 +33,12 @@ public class Largest_element {
         System.out.println("Largest element in the array: " + Arrays.toString(nums) + " = " + result);
         input.close();
     }
-}*/
+}
+    */
 
 // Better approach
-/*package Array_Problems;
+/*
+package Array_Problems;
 
 import java.util.Scanner;
 import java.util.Arrays;
@@ -74,10 +77,12 @@ public class Largest_element {
         System.out.println("Second largest element in the array: " + Arrays.toString(nums) + " is: " + result);
         input.close();
     }
-}*/
+}
+    */
 
 // Optimal approach
 
+/* 
 package Array_Problems;
 
 import java.util.*;
@@ -115,3 +120,4 @@ public class Largest_element {
         input.close();
     }
 }
+*/
