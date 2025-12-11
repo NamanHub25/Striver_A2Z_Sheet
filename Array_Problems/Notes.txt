@@ -1,0 +1,11 @@
+ALGORITHM 
+
+REMOVE DUPLICATES FROM THE ARRAY
+Brute force 
+
+Since we need to store only unique elements, we can use the set data structure. We can insert all the elements of the array in the set irrespective of their frequency as set only allows one occurence of each element.
+
+--> Declare a set and insert all the elements of the array into the set.
+--> The number of unique elements in array is equal to size of the set.
+--> Traverse the set and fill the first k indices with elements in set.
+
