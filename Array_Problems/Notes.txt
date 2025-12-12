@@ -9,3 +9,7 @@ Since we need to store only unique elements, we can use the set data structure. 
 --> The number of unique elements in array is equal to size of the set.
 --> Traverse the set and fill the first k indices with elements in set.
 
+So in the problem statement for finding second largest element I wanna talk about something noticable and I am damn sure I'll again confuse myself at that point in future so:-
+
+In the optimal arrpoach when the nums[i] points to i = 2 i.e. nums[2] = 1 then this value 1 does not satisfies both of the conditions neither if nor else if so I was confused at once what will happen so the answer I got is nothing happens at this time and the value of i is increased to one i.e. i = 3
+
