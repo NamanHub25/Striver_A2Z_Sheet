@@ -13,3 +13,4 @@ So in the problem statement for finding second largest element I wanna talk abou
 
 In the optimal arrpoach when the nums[i] points to i = 2 i.e. nums[2] = 1 then this value 1 does not satisfies both of the conditions neither if nor else if so I was confused at once what will happen so the answer I got is nothing happens at this time and the value of i is increased to one i.e. i = 3
 
+In the question Left Rotate array by one place I did a blunder and shouldn't have done that i.e. I didn't shifted the elements left wards and directly printed that so it was giving me the rotated array as [1, 2, 3, 4, 5, 6, 1] rather than giving me the correct answer as [2, 3, 4, 5, 6, 7, 1] just because I didn't shifted the elements leftside so nums[6] = 7 got over written by 1(nums[0])
