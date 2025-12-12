@@ -1,6 +1,6 @@
 // Brute force
 
-
+/*
 import java.util.Scanner;
 import java.util.Arrays;
 import java.util.HashSet;
@@ -34,7 +34,7 @@ public class Remove_duplicates {
         input.close();
     }
 }
-    
+    */
 
 // OPtimal approach
 /* 
@@ -47,6 +47,8 @@ public class Remove_duplicates {
             
             if(nums.length == 0) return 0;
 
+
+            // Two pointer approach
             int i = 0;
             for(int j = 1; j < nums.length; j++){
                 if(nums[j] != nums[i]){
